@@ -1,0 +1,8 @@
+- name:
+  link: https://facebook.com/meninascomautismo
+  new_window: true
+  social_icon: Facebook
+- name:
+  link: https://twitter.com/meninascomautismo
+  social_icon: Twitter
+  new_window: true
