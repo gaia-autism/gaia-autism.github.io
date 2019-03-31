@@ -2,7 +2,7 @@
 ---
 
 <section class="categories">
-	{% assign categories = site.categories | sort %}
+	{% assign categories = site.categories %}
 	{% for category in categories %}
 		{% assign name = category[0] %}
 		{% assign posts = category[1] %}

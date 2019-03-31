@@ -2,11 +2,12 @@
 date: 2019-01-01
 title: G01 - 
 description: 
+permalink: /representacoes-redundantes/
 categories:
-  - "Customizacao"
+  - representacoes-redundantes
 resources:
 type: Document
-set: p02-customizacao
+set: p03-representacoes-redundantes
 set_order: 1
 ---
 

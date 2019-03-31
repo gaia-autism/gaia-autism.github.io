@@ -2,7 +2,7 @@
 # Site
 
 title: GAIA - Guia de Acessibilidade de Interfaces para Autismo
-url: "http://gaia.wiki.br"
+url: "https://gaia.wiki.br"
 baseurl: ""
 google_analytics_key: 
 disqus_shortname:
@@ -18,7 +18,7 @@ author:
 social:
   name: GAIA
   links:
-    - http://gaia.wiki.br
+    - https://gaia.wiki.br
 
 # -----
 # Build
