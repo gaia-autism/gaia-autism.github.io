@@ -30,6 +30,39 @@ layout: default
 		
 		<div class="tutorial-main">
 			{{ content }}
+
+			{% if page.images %}
+				<h2 id="exemplos">Exemplos</h2>
+				<div class="images">
+					{% for image in page.images %}
+					<figure>
+						<img src="/images/{{ image.name }}" alt="{{ image.caption }}">
+						<figcaption>{{ image.caption }}</figcaption>
+					</figure>
+					{% endfor %}
+				</div>
+			{% endif %}
+
+			{% if page.references %}
+				<h2 id="referências">Referências</h2>
+				<div class="references">
+					<ol>
+						{% for reference in page.references %}
+							<li>
+							{% for site_reference in site.data.references %}
+							{% if reference == site_reference.slug %}
+								{% if site_reference.link %}
+									<a href="{{ site_reference.link }}">{{ site_reference.description }}</a>
+								{% else %}
+									{{ site_reference.description }}
+								{% endif %}
+							{% endif %}
+							{% endfor %}
+							</li>
+						{% endfor %}
+					</ol>
+				</div>
+			{% endif %}
 		</div>
 		<div class="tutorial-share">
 			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Compartilhe</a>
@@ -40,21 +73,12 @@ layout: default
 {% if page.set %}
 	{% assign set_file_name = "_sets/" | append: page.set | append: ".md" %}
 	{% assign set = site.sets | where: "path", set_file_name | first %}
-	{% assign series_posts = site.posts | where: "set", page.set %}
+	{% assign series_posts = site.posts | where: "set", page.set | sort %}
 	<div class="tutorial-series">
 		<h3>{{ set.title }}</h3>
 		<p>{{ set.description }}</p>
 
-		{% include listings.html listings=series_posts numbered=true%}
-	</div>
-{% endif %}
-{% assign related_posts = site.related_posts %}
-{% assign related_posts_size = related_posts | size %}
-{% if related_posts_size > 0 %}
-	<div class="related">
-		<h3>Consulte também:</h3>
-
-		{% include listings.html listings=site.related_posts %}
+		{% include listings.html listings=series_posts numbered=false%}
 	</div>
 {% endif %}
 

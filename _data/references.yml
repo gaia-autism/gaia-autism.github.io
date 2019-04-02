@@ -1,0 +1,45 @@
+- slug: abou-zahra
+  description: "ABOU-ZAHRA, S. (ed). 2012. How People with Disabilities Use the Web. Status: Draft Updated 1 August 2012"
+  link: "http://www.w3.org/WAI/intro/people-use-web/diversity"
+- slug: assistive-ware
+  description: "ASSISTIVE WARE. A voice for those who cannot speak: Proloquo2Go. 2014."
+  link: "http://www.assistiveware.com/product/proloquo2go"
+- slug: battochi
+  description: "BATTOCCHI, A. et al. Collaborative puzzle game: a tabletop interface for fostering collaborative skills in children with autism spectrum disorders. Journal of Assistive Technologies, v. 4, n. 1, p. 4–13, 2010."
+- slug: carrer
+  description: "CARRER, H. J.; PIZZOLATO, E. B., GOYOS, C. Avaliação de software educativo com reconhecimento de fala em indivíduos com desenvolvimento normal e atraso de linguagem. Revista Brasileira de Informática na Educação, v. 17, n. 3, p. 1-16, 2009." 
+- slug: cast
+  description: "CAST, Center for Applied Special Technology. 2011. About UDL."
+  link: "http://www.cast.org/udl/index.html"
+- slug: darejeh
+  description: "DAREJEH, A.; SINGH, D. A REVIEW ON USER INTERFACE DESIGN PRINCIPLES TO INCREASE SOFTWARE USABILITY FOR USERS WITH LESS COMPUTER LITERACY. Journal Of Computer Science, [s.l.], v. 9, n. 11, p.1443-1450, 1 nov. 2013. Science Publications."
+  link: "http://dx.doi.org/10.3844/jcssp.2013.1443.1450"
+- slug: friedman
+  description: "FRIEDMAN, M. G.; BRYEN, D. N. Web accessibility design recommendations for people with cognitive disabilities. Technology And Disability, [s. L.], v. 19, n. 4, p.205-2012, jan. 2007."
+- slug: lau
+  description: "LAU, F.K.; YUEN, A. H. K.; LIAN, J. M. G. Adapted design of multimedia-facilitated language learning program for children with autism. Psicologia Escolar e Educacional (Impresso), v. 11, n. spe, p. 13–26, 2007."
+- slug: millen
+  description: "MILLEN, L.; EDLIN-WHITE, R.; COBB, S. The development of educational collaborative virtual environments for children with autism. Proceedings of 5th Cambridge Workshop on Universal Access and Assistive Technology (CWUAAT 2010). Anais... Cambridge, UK: University of Cambridge, 2010."
+  link: "http://geniiz.com/wp-content/uploads/2012/01/11.pdf"
+- slug: munoz
+  description: "Muñoz, R., et al. Development of Software that Supports the Improvement of the Empathy in Children with Autism Spectrum Disorder. In: International Conference of the Chilean Computer Science Society, 2012."
+- slug: putnam
+  description: "PUTNAM, C.; CHONG, L. Software and technologies designed for people with autism. In: 10TH INTERNATIONAL ACM SIGACCESS CONFERENCE ON COMPUTERS AND ACCESSIBILITY - ASSETS '08, 2008, New York, NY, USA. Proceedings... . New York, NY, USA: ACM, 2008. p. 3 - 10." 
+- slug: puzzle-piece
+  description: "PUZZLE PIECE. Puzzle Piece: Android Tablet + Autism Apps. 2014. "
+  link: "https://www.getpuzzlepiece.com/"
+- slug: seeman
+  description: "SEEMAN, L.; COOPER, M. (Org.). Cognitive Accessibility User Research. 2015." 
+  link: "https://www.w3.org/TR/coga-user-research/"
+- slug: silva
+  description: "SILVA, G. F. M.; SALGADO, L. C. DE C.; RAPOSO, A. B. Metáforas de Perspectivas Culturais na (re) definição de padrões de colaboração de um jogo de multi-toque para usuários com autismo. Proceedings of the 12th Brazilian Symposium on Human Factors in Computing Systems (IHC’13). Anais... Porto Alegre: Sociedade Brasileira de Computação, 2013."
+- slug: sitd
+  description: "Sitdhisanguan, K., et al. Using tangible user interfaces in computer-based training systems for low-functioning autistic children. Personal Ubiquitous Comput. v. 16, n. 2, p. 143-155, 2012." 
+- slug: webaim
+  description: "WEBAIM. Evaluating Cognitive Web Accessibility with WAVE. 2014." 
+  link: "http://wave.webaim.org/cognitive"
+- slug: weiss
+  description: "WEISS, P. L. T. et al. Usability of a Multi-Touch Tabletop Surface to Enhance Social Competence Training for Children with Autism Spectrum Disorder. Proceedings of the Chais Conference on Instructional Technologies Research: Learning in the technological era, p. 71–78, 2011." 
+- slug: udlcenter
+  description: "UDLCENTER, National Center of Universal Design for Learning. 2012. UDL Guidelines – Version 2.0."
+  link: "http://www.udlcenter.org/aboutudl/udlguidelines"

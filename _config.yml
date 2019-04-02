@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
-baseurl:
-google_analytics_key:
+title: GAIA - Guia de Acessibilidade de Interfaces para Autismo
+url: "https://gaia.wiki.br"
+baseurl: ""
+google_analytics_key: 
 disqus_shortname:
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+description: O GAIA é um guia de recomendações para desenvolvimento de sites mais acessíveis a pessoas com Autismo.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Talita Pagani
+  email: contato@talitapagani.com
+  twitter: talitapagani
 social:
-  name: Base Template
+  name: GAIA
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://gaia.wiki.br
 
 # -----
 # Build
@@ -39,6 +39,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - CONTRIBUTING
 
 collections:
   sets:

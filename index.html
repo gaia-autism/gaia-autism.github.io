@@ -2,14 +2,17 @@
 ---
 
 <section class="categories">
-	{% assign categories = site.categories | sort %}
+	{% assign categories = site.categories %}
 	{% for category in categories %}
 		{% assign name = category[0] %}
 		{% assign posts = category[1] %}
 		{% assign size = posts | size %}
 		<section class="category">
 				<h3>
-					<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
+					{% for slugify_category in site.data.categories %}{% if name == slugify_category.slug %}
+					<a href="{{ site.baseurl }}/category/{{ slugify_category.slug }}/">{{ slugify_category.name }}</a>
+					{% endif %}
+					{% endfor %}
 				</h3>
 
 			<ul>
