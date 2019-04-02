@@ -32,7 +32,7 @@ layout: default
 			{{ content }}
 
 			{% if page.images %}
-				<h2 id="exemplos">Exemplos<a href="#exemplos" class="header-link">#</a></h2>
+				<h2 id="exemplos">Exemplos</h2>
 				<div class="images">
 					{% for image in page.images %}
 					<figure>
@@ -44,16 +44,20 @@ layout: default
 			{% endif %}
 
 			{% if page.references %}
-				<h2 id="referências">Referências<a href="#referências" class="header-link">#</a></h2>
+				<h2 id="referências">Referências</h2>
 				<div class="references">
 					<ol>
 						{% for reference in page.references %}
 							<li>
-								{% if reference.link %}
-									<a href="{{ reference.link }}">{{ reference.description }}</a>
+							{% for site_reference in site.data.references %}
+							{% if reference == site_reference.slug %}
+								{% if site_reference.link %}
+									<a href="{{ site_reference.link }}">{{ site_reference.description }}</a>
 								{% else %}
-									{{ reference.description }}
+									{{ site_reference.description }}
 								{% endif %}
+							{% endif %}
+							{% endfor %}
 							</li>
 						{% endfor %}
 					</ol>
