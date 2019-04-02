@@ -30,6 +30,35 @@ layout: default
 		
 		<div class="tutorial-main">
 			{{ content }}
+
+			{% if page.images %}
+				<h2 id="exemplos">Exemplos<a href="#exemplos" class="header-link">#</a></h2>
+				<div class="images">
+					{% for image in page.images %}
+					<figure>
+						<img src="/images/{{ image.name }}" alt="{{ image.caption }}">
+						<figcaption>{{ image.caption }}</figcaption>
+					</figure>
+					{% endfor %}
+				</div>
+			{% endif %}
+
+			{% if page.references %}
+				<h2 id="referências">Referências<a href="#referências" class="header-link">#</a></h2>
+				<div class="references">
+					<ol>
+						{% for reference in page.references %}
+							<li>
+								{% if reference.link %}
+									<a href="{{ reference.link }}">{{ reference.description }}</a>
+								{% else %}
+									{{ reference.description }}
+								{% endif %}
+							</li>
+						{% endfor %}
+					</ol>
+				</div>
+			{% endif %}
 		</div>
 		<div class="tutorial-share">
 			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Compartilhe</a>

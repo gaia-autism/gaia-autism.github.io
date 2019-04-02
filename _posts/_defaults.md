@@ -1,13 +1,15 @@
 ---
 date: 2019-01-01
-title: G01 - 
+title: G2 - 
 description: 
-permalink: /representacoes-redundantes/
+permalink: /navegabilidade/
 categories:
-  - representacoes-redundantes
+  - navegabilidade
 resources:
+images:
+references:
 type: Document
-set: p03-representacoes-redundantes
+set: p08-navegabilidade
 set_order: 1
 ---
 
@@ -24,7 +26,3 @@ Atenção, Leitura, Compreensão verbal ou linguística, Compreensão visual
 ## Como fazer?
 
 - 
-
-## Exemplos
-
-## Referências
